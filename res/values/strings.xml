@@ -1,0 +1,14 @@
+<resources>
+
+	<string name="app_name">IntentLinkOpener</string>
+	<string name="title_activity_main">IntentLinkOpener</string>
+	<string name="title_activity_redirect">aIntentLinkOpener</string>
+	<string name="button_resend">Resend Intent</string>
+	<string name="text_notext">No text data.</string>
+	<string name="text_title">
+		This application will catch share intents and display text with link.\n
+		To use this,\n
+		Open some application and share some text with url to this application.
+	</string>
+
+</resources>

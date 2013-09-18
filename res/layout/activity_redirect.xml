@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+	<ScrollView
+			android:id="@+id/scrollView"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:paddingBottom="30dp">
+		<TextView
+			android:id="@+id/linkView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:autoLink="web"
+			android:linksClickable="true"
+			android:text=""
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</ScrollView>
+	<Button
+		android:id="@+id/button_resend"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/button_resend"
+		android:onClick="onResend"
+		android:layout_weight="0" />
+</LinearLayout>
